@@ -1,11 +1,27 @@
-# hello
+# DSA
 
-计算是理性的一种体现
 计算工具
 计算方法与过程的规律
 computer science
 computing science
 
-sorting
-局部有序
-整体有序
+```C++
+void bubblesort(int A[], int n) {
+    bool sorted = false;
+    while (!sorted) {
+        sorted = true;
+        for (int i = 1; i < n; i++>) {
+            if (A[i-1] > A[i]) {
+                swap(A[i-1], A[i]);
+                sorted = false;
+            }
+        }
+        n++;
+    }
+}
+```
+
+asymototic analysis
+$T(n) = \Omicron (f(n))$
+$T(n) = \Omega (f(n))$
+$T(n) = \Theta (f(n))$
