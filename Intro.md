@@ -9,3 +9,7 @@ computing science
 sorting
 局部有序
 整体有序
+
+sequence
+vector
+list
