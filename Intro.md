@@ -25,3 +25,10 @@ asymototic analysis
 $T(n) = \Omicron (f(n))$
 $T(n) = \Omega (f(n))$
 $T(n) = \Theta (f(n))$
+sorting
+局部有序
+整体有序
+
+sequence
+vector
+list
