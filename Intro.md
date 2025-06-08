@@ -21,7 +21,7 @@ void bubblesort(int A[], int n) {
 }
 ```
 
-asymototic analysis
+asymptotic analysis
 $T(n) = \Omicron (f(n))$
 $T(n) = \Omega (f(n))$
 $T(n) = \Theta (f(n))$
